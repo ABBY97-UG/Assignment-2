@@ -42,6 +42,12 @@ img {
     border-radius: 50%;
     margin-bottom: 15px;
 }
+h2{
+    color: red;
+    font-family: arial;
+    font-style: bold;
+    
+}
 
 button {
     background-color: #007bff;
