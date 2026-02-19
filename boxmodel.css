@@ -12,6 +12,7 @@ body {
     align-items: center;
     height: 60%;
     margin: 0;
+    font-size: 24px;
 }
 
 .profile-card {
