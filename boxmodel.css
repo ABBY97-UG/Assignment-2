@@ -1,0 +1,53 @@
+/* Apply box-sizing globally for easier layout management */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    /* Center the card on the page using Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    /* Set a fixed width */
+    width: 320px;
+    
+    /* Add padding inside the card */
+    padding: 20px;
+    
+    /* Add margin around the card */
+    margin: 20px;
+    
+    /* Add border */
+    border: 2px solid #333;
+    
+    /* Visual styling */
+    background-color: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes image circular */
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
